@@ -3,7 +3,7 @@ import os
 
 import tensorflow as tf
 from tensorflow.python.training import checkpoint_management
-from tensorflow.python.training.checkpointable import data_structures
+from tensorflow.python.training.tracking import data_structures
 
 class CheckpointManager(object):
 
